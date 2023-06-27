@@ -12,7 +12,7 @@ services:
     ports:
       - 8000:80
     depends_on:
-      -db
+      - db
 
 
   db:
@@ -29,4 +29,4 @@ services:
     ports:
       - 5432:5432
     depends_on:
-      -Mercado
+      - Mercado
